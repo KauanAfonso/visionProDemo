@@ -1,0 +1,153 @@
+body {
+    background: url('imagem/atendimento-opc.png') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.content {
+    position: relative;
+    z-index: 1
+}
+
+h1 {
+    color: black;
+    background-image: linear-gradient(to top, rgb(30, 0, 255), rgb(0, 183, 255));
+    text-align: center;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#carouselExampleControlsNoTouching img{
+    width: 100%;
+    height: 40em;
+}
+
+.desconto{
+    background-color: brown;
+    width: 100%;
+    height: auto;
+}
+
+.desconto p{
+    text-align: center;
+    font-size: large;
+}
+
+.imagemDoconteudo{
+    width: 700px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+
+section{
+    background: rgba(0, 0, 169, 0.542);
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    color: white;
+}
+
+section img{
+    width: 400px;
+}
+
+
+@media screen and (max-width: 768px){
+#carouselExampleControlsNoTouching img{
+        height: 20em;
+    }
+
+.imagemDoconteudo{
+    width: 500px;
+}    
+}
+
+/* styles.css */
+/* Voltar */
+.iconvolt {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    
+}
+
+.iconvolt:hover {
+    animation: shake 1.5s 10; /* Aplicar animação shake durante o hover */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    50% {
+        transform: translateX(20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    
+}
+
+/* icon Whats */
+.icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    
+}
+
+.icon:hover {
+    animation: shake 0.8s 4; /* Aplicar animação shake durante o hover */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    50% {
+        transform: translateX(20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    
+}
+/* icon */
+.iconmenu:hover {
+    animation: shake 1.5s 10; /* Aplicar animação shake durante o hover */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    50% {
+        transform: translateX(20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    
+}
+
+/* rodape */
+
+rodape{
+    position: fixed;
+    margin-top: 100px;
+}
+

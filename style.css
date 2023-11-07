@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#carouselExampleFade img{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.desconto{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+
+.desconto p{
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.imagemDoconteudo{
+    width: 700px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+
+section{
+    background: rgba(0, 0, 169, 0.542);
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    color: white;
+    padding-bottom: 5em;
+    
+}
+
+section img{
+    width: 400px;
+    border-radius: 50px 10px;
+}
+
+label{
+    color: black;
+}
+
+
+.servicos{
+    background-color: white;
+    margin: 5em 0px;
+    color: black;
+    text-align: center;
+}
+
+.servicos h2{
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+.servicos img{
+    border-radius: 10px 50px;
+}
+
+.servicos p{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+@media screen and (max-width: 480px){
+    .imagemDoconteudo{
+        width: 380px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 768px){
+#carouselExampleControlsNoTouching img{
+        height: 20em;
+    }
+
+.imagemDoconteudo{
+     width: 450px;
+}    
+
+.servicos{
+    margin-top: 10em;
+}
+
+.final{
+    margin-top: 38em;
+}
+}
+
+/* icon */
+.icon:hover {
+    animation: shake 1.5s 10; /* Aplicar animação shake durante o hover */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    50% {
+        transform: translateX(20px); /* Define o quanto o ícone deve chacoalhar */
+    }
+    
+}

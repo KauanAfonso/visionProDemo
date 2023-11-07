@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisionPro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- Nav -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 class="navbar-brand">VisionPro Segurança <img src="imagem/icon-vision-pro.jpg" alt="visionpro.jpg"></h1>
+
+      <a class="icon" href="faleconosco.html">Fale Conosco! <img src="imagem/fale-conosco50px.png"
+          alt="falaconosco.png"></a>
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fale Conosco</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--Carrosel-->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagem/foto1-cameras.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto2-cameras.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto3-camera.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto4-camera.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto5-camera.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto6-camera.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto7-camera.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto8-cameras.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto9-camera.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagem/foto10-cameras.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="desconto">
+    <center>
+      <h2>Contrate nossos serviços agora com 40% de Desconto!</h2>
+    </center>
+    <p> <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contrar Agora
+      </button>
+
+      <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Número:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Qual serviço você deseja?</label>
+                <input type="textarea" class="form-control" id="exampleInputPassword1" rows="5">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Desejo acompanhar as promoções</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </p>
+  </section><br><br>
+
+
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12 col-lg-8"><img class="imagemDoconteudo" src="imagem/foto7-camera.jpg" alt=""></div>
+      <div class="col-md-12 col-lg-4">
+        <p style="text-align: justify;">A Câmera de Segurança de Alta Performance é a solução definitiva para proteger
+          sua casa ou local de trabalho.
+          Oferece qualidade de imagem excepcional, visão noturna avançada e detecção de movimento inteligente para
+          garantir sua segurança. Com acesso remoto, instalação simples e resistência às intempéries, você pode
+          monitorar seu
+          espaço em tempo real,independentemente das condições climáticas. Escolha entre armazenamento local e em nuvem
+          para manter seus
+          vídeos seguros.
+          Além disso, seu design discreto se integra perfeitamente a qualquer ambiente. Garanta sua tranquilidade com
+          essa câmera de segurança de alto desempenho.
+
+        </p>
+      </div>
+    </div><br><br><br><br>
+    <div class="row">
+      <div class="col-md-12 col-lg-4">
+
+        <h4>Câmeras de Segurança na Sua Loja: Protegendo o que é Valioso </h4><br>
+        <ul>
+          <li>Previnem crimes e atuam como dissuasores para criminosos.</li>
+          <li>Oferecem vigilância 24/7, mesmo quando a loja está fechada.</li>
+          <li>Ajudam na identificação de suspeitos em caso de incidentes.</li>
+          <li>Resolvem disputas, fornecendo evidências objetivas.</li>
+          <li>Permitem o monitoramento de funcionários e garantem um ambiente de trabalho ético.</li>
+          <li>Possibilitam o acesso remoto para verificar a loja de qualquer lugar.</li>
+          <li>Podem ser integradas a sistemas de alarme para maior eficácia.</li>
+          <li>Auxiliam no monitoramento de estoque e inventário.</li>
+          <li>Garantem segurança noturna com câmeras de visão noturna.</li>
+        </ul>
+        </p>
+      </div>
+      <div class="col-md-12 col-lg-8">
+
+        <img class="imagemDoconteudo" src="imagem/foto6-camera.jpg" alt="">
+      </div>
+    </div><br><br><br><br>
+
+    <div class="row">
+      <div class="col-md-12 col-lg-8"><img class="imagemDoconteudo" src="imagem/Porta-Giratória-1.jpg" alt=""></div>
+      <div class="col-md-12 col-lg-4">
+        <p>
+          A Porta de Vidro Segura é a escolha ideal para controlar o acesso de forma eficiente e elegante.
+          Oferece um design moderno, resistência e segurança para garantir a integridade do seu espaço. Com
+          tecnologia avançada de leitura de cartões, sensores biométricos e um sistema de monitoramento,
+          você pode controlar e registrar com precisão a entrada e saída de pessoas. Seu vidro reforçado
+          proporciona uma barreira sólida, ao mesmo tempo em que permite uma visão clara do ambiente.
+          Escolha a confiabilidade e a sofisticação da Porta de Vidro Segura para manter o controle de acesso de
+          forma eficaz e estilosa.
+        </p>
+
+      </div>
+    </div>
+  </div>
+  </div><br><br><br><br>
+
+  <section>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <h2>Sobre nós</h2>
+        </div><br><br><br>
+        <div class="col-md-6 col-lg-6">
+          <p>Nossa História de Proteção: Há muitos anos, nossa empresa nasceu com a visão de tornar o mundo mais seguro
+            através da tecnologia.
+            Começamos com câmeras de vigilância e crescemos para incluir catracas e portas seguras. Nossa jornada é uma
+            história de sucesso
+            baseada na confiança dos clientes. Hoje, continuamos a evoluir, comprometidos em oferecer soluções de
+            segurança de última
+            geração e atender às necessidades únicas de nossos clientes. Escolher nossos serviços é investir em
+            tranquilidade e proteção.
+            Junte-se a nós nessa jornada de segurança e inovação. Sua segurança é nossa prioridade.</p>
+
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <img src="imagem/pessoas-felizes.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="servicos">
+
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Nossos serviços: </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <a href="menu-manutencao.html"><img src="imagens/suporte.jpg" class="card-img-top" alt="..."></a>
+
+              <div class="card-body">
+                <p class="card-text">Manutenção</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <a href="menu-portas.html"><img src="imagem/Porta-Giratória-3.jpg" class="card-img-top" alt="..."></a>
+              
+              <div class="card-body">
+                <p class="card-text">Portas e Catracas Seguras</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <a href="menu-cameras.html"><img src="imagem/foto7-camera.jpg" class="card-img-top" alt="..."></a>
+              
+              <div class="card-body">
+                <p class="card-text">Câmeras</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <div class="final">
+    <section class="desconto">
+      <p>Contrate nossos serviços agora com 40% de Desconto!</p>
+      <p> <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contrar
+          Agora
+        </button>
+
+        <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Número:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Qual serviço você deseja?</label>
+                  <input type="textarea" class="form-control" id="exampleInputPassword1" rows="5">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Desejo acompanhar as promoções</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </p>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    </script>
+</body>
+
+</html>
